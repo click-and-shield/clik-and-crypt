@@ -1,10 +1,10 @@
-package org.shadow.skriva.form.encrypt_decrypt;
+package org.shadow.click_and_crypt.form.encrypt_decrypt;
 
 import javafx.beans.property.BooleanProperty;
 import javafx.beans.property.SimpleBooleanProperty;
 import javafx.scene.control.*;
 import javafx.scene.layout.HBox;
-import org.shadow.skriva.Configuration;
+import org.shadow.click_and_crypt.Configuration;
 
 /**
  * The Components class encapsulates the UI components and their configurations that are used in the form

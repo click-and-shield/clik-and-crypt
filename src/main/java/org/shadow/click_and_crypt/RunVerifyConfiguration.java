@@ -1,8 +1,8 @@
-package org.shadow.skriva;
+package org.shadow.click_and_crypt;
 
 import org.shadow.lib.exception.FatalRuntimeException;
 import org.shadow.lib.exception.RecoverableRuntimeException;
-import org.shadow.skriva.exception.RecoverableErrorCause;
+import org.shadow.click_and_crypt.exception.RecoverableErrorCause;
 
 import java.nio.file.Files;
 import java.nio.file.InvalidPathException;
@@ -88,12 +88,12 @@ public class RunVerifyConfiguration implements Runnable {
      *
      * @param path the output file path to be verified
      * @throws FatalRuntimeException if the provided path is invalid, the directory does not exist, or is not writable.
-     * @throws org.shadow.skriva.exception.RecoverableRuntimeException if the output path already exists.
+     * @throws org.shadow.click_and_crypt.exception.RecoverableRuntimeException if the output path already exists.
      * @apiNote Please note that this method can only be called once the application has been launched and
      *          the event loop has been started. Indeed it may raise exceptions.
      */
 
-    public static void verifyOutputPath(String path) throws FatalRuntimeException, org.shadow.skriva.exception.RecoverableRuntimeException {
+    public static void verifyOutputPath(String path) throws FatalRuntimeException, org.shadow.click_and_crypt.exception.RecoverableRuntimeException {
         Path truePath;
 
         try {
@@ -113,7 +113,7 @@ public class RunVerifyConfiguration implements Runnable {
                     String.format("output directory: \"%s\"", parentPath));
         }
         if (Files.exists(truePath)) {
-            throw new org.shadow.skriva.exception.RecoverableRuntimeException("the output file already exists",
+            throw new org.shadow.click_and_crypt.exception.RecoverableRuntimeException("the output file already exists",
                     String.format("output path: \"%s\"", path),
                     RecoverableErrorCause.OUTPUT_FILE_EXISTS);
         }

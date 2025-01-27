@@ -1,8 +1,8 @@
-package org.shadow.skriva;
+package org.shadow.click_and_crypt;
 
 import javafx.application.Platform;
 import org.shadow.lib.exception.FatalRuntimeException;
-import org.shadow.skriva.exception.RecoverableRuntimeException;
+import org.shadow.click_and_crypt.exception.RecoverableRuntimeException;
 
 import java.util.List;
 

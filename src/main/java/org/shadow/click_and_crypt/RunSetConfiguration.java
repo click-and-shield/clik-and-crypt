@@ -1,8 +1,8 @@
-package org.shadow.skriva;
+package org.shadow.click_and_crypt;
 
 import org.shadow.lib.exception.FatalRuntimeException;
 import org.shadow.lib.exception.RecoverableRuntimeException;
-import org.shadow.skriva.form.encrypt_decrypt.EncryptDecrypt;
+import org.shadow.click_and_crypt.form.encrypt_decrypt.EncryptDecrypt;
 
 import java.util.List;
 
@@ -32,7 +32,7 @@ public class  RunSetConfiguration implements Runnable {
         if (configuration.isVerbose()) {
             System.out.println("Set the configuration for the interface");
         }
-        org.shadow.skriva.Parameters.ParseCommandLine(configuration, args);
+        org.shadow.click_and_crypt.Parameters.ParseCommandLine(configuration, args);
         encryptDecryptForm.setConfiguration(configuration);
     }
 }

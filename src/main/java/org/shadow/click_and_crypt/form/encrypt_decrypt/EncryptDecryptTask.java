@@ -1,14 +1,12 @@
-package org.shadow.skriva.form.encrypt_decrypt;
+package org.shadow.click_and_crypt.form.encrypt_decrypt;
 
 import javafx.application.Platform;
 import javafx.concurrent.Task;
 import org.shadow.lib.cryptography.TaskUpdater;
 import org.shadow.lib.exception.FatalRuntimeException;
 import org.shadow.lib.gui.ModernSuccess;
-import org.shadow.skriva.Action;
+import org.shadow.click_and_crypt.Action;
 import org.shadow.lib.cryptography.SkrivaCypherV1;
-
-import java.io.IOException;
 
 /**
  * This task is responsible for processing (encrypt or decrypt) the input file.

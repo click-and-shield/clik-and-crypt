@@ -1,4 +1,4 @@
-package org.shadow.skriva.form.encrypt_decrypt;
+package org.shadow.click_and_crypt.form.encrypt_decrypt;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;

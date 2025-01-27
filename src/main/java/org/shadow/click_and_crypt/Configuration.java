@@ -1,4 +1,4 @@
-package org.shadow.skriva;
+package org.shadow.click_and_crypt;
 
 public class Configuration {
     private Action action;

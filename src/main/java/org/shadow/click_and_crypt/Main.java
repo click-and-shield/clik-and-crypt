@@ -1,4 +1,4 @@
-package org.shadow.skriva;
+package org.shadow.click_and_crypt;
 
 import javafx.application.Application;
 import javafx.application.Platform;
@@ -7,10 +7,10 @@ import javafx.scene.image.Image;
 import javafx.stage.Stage;
 import org.jetbrains.annotations.Nullable;
 import org.shadow.lib.exception.FatalRuntimeException;
-import org.shadow.skriva.exception.RecoverableErrorCause;
-import org.shadow.skriva.exception.RecoverableRuntimeException;
+import org.shadow.click_and_crypt.exception.RecoverableErrorCause;
+import org.shadow.click_and_crypt.exception.RecoverableRuntimeException;
 import org.shadow.lib.gui.ModernYesNo;
-import org.shadow.skriva.form.encrypt_decrypt.EncryptDecrypt;
+import org.shadow.click_and_crypt.form.encrypt_decrypt.EncryptDecrypt;
 import org.shadow.lib.gui.ModernAlert;
 
 import java.util.Arrays;

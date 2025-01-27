@@ -1,4 +1,4 @@
-package org.shadow.skriva;
+package org.shadow.click_and_crypt;
 
 public enum InterfaceMode {
     Cli, Gui, Undefined;

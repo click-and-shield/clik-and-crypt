@@ -1,9 +1,9 @@
-package org.shadow.skriva.form.encrypt_decrypt;
+package org.shadow.click_and_crypt.form.encrypt_decrypt;
 
 import javafx.geometry.HPos;
 import javafx.scene.layout.GridPane;
-import org.shadow.skriva.Action;
-import org.shadow.skriva.Configuration;
+import org.shadow.click_and_crypt.Action;
+import org.shadow.click_and_crypt.Configuration;
 
 public class EncryptDecrypt extends GridPane {
 

@@ -24,7 +24,7 @@
         <!-- https://mvnrepository.com/artifact/org.openjfx/javafx-maven-plugin -->
         <javafx.maven.plugin.version>0.0.8</javafx.maven.plugin.version>
         <javapackager.version>1.7.6</javapackager.version>
-        <main.class>org.shadow.skriva.Main</main.class>
+        <main.class>org.shadow.click_and_crypt.Main</main.class>
         <maven-dependency-plugin.version>3.8.0</maven-dependency-plugin.version>
     </properties>
 

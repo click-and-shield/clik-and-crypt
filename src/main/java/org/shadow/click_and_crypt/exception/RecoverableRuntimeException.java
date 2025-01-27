@@ -1,4 +1,4 @@
-package org.shadow.skriva.exception;
+package org.shadow.click_and_crypt.exception;
 
 import org.jetbrains.annotations.Nullable;
 
