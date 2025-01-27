@@ -76,6 +76,9 @@ base\23\javafx-base-23.jar;C:\Users\denis\.m2\repository\org\openjfx\javafx-cont
 is\Documents\github\click-and-crypt\target\classes;C:\Users\denis\.m2\repository\commons-cli\commons-cli\1.9.0\commons-cli-1.9.0.jar;C:\Users\denis\.m2\repository\org\jetbrains\annotations\26.0.2\annotations-26.0.2.jar, org.shadow.click_and_crypt.Main, encrypt, C:\Users\denis\Documents\github\click-and-crypt\test-data\input.txt]
 ```
 
+> Please note that the output provided above is presented as an array of command-line components, separated by commas ("`,`").
+> Additionally, ensure that the arguments for `--module-path` and `-classpath` are enclosed in double quotes.
+
 ## Useful Maven commands
 
 Maven:
