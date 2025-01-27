@@ -1,0 +1,46 @@
+.button-action {
+    -fx-font-size: 2em;
+    -fx-padding: 2px;
+    -fx-background-color: #3498db; /* couleur d'arrière-plan */
+    /*-fx-text-fill: white; !* couleur du texte *!*/
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+
+.label {
+    -fx-border-width: 1px;
+    -fx-font-size: 2em;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+
+.input-text {
+    -fx-border-width: 1px;
+    -fx-font-size: 2em;
+}
+
+.grid {
+    -fx-grid-lines-visible: false;
+    -fx-padding: 10px;
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+}
+
+.strength-low .bar {
+    -fx-background-color: red;
+}
+
+.strength-medium .bar {
+    -fx-background-color: orange;
+}
+
+.strength-high .bar {
+    -fx-background-color: #9ACD32;
+}
+
+.strength-very-high .bar {
+    -fx-background-color: #7FFF00;
+}
+
+
+

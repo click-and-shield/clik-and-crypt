@@ -1,0 +1,33 @@
+/* Style for the GridPane container */
+.modern-success-gridpan-container {
+    -fx-grid-lines-visible: false;
+    -fx-background-color: #f9f6f2;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-padding: 10px; /* Espacement intérieur autour du contenu */
+    -fx-margin: 5px; /* Marges autour des éléments enfants */
+    -fx-alignment: center;
+    -fx-vgap: 20px;
+    -fx-hgap: 20px;
+}
+
+/* Style for the close button */
+.modern-success-button-ok {
+    -fx-background-color: #d6eadf;
+    -fx-padding: 5px 10px;
+    -fx-border-radius: 5px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+
+/* Style for the text that gives a short description of the error. */
+.modern-success-label-message {
+    -fx-background-color: #f9f6f2;
+    -fx-border-color: none;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 100%;
+    -fx-font-weight: normal;
+    -fx-text-fill: #3c3c3c;
+    -fx-padding: 0px;
+}

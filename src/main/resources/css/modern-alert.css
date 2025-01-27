@@ -1,0 +1,43 @@
+/* Style for the VBox component */
+.modern-alert-vbox-container {
+    -fx-background-color: #f9f6f2;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-padding: 10px; /* Espacement intérieur autour du contenu */
+    -fx-spacing: 20px; /* Espacement entre les éléments enfants */
+    -fx-margin: 5px; /* Marges autour des éléments enfants */
+    -fx-alignment: center;
+}
+
+/* Style for the close button */
+.modern-alert-button-ok {
+    -fx-background-color: #d4afb9;
+    -fx-padding: 5px 10px;
+    -fx-border-radius: 5px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+
+/* Style for the text area that displays details about the alert. */
+.modern-alert-textarea-details {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #d3d3d3;
+    -fx-border-radius: 5px;
+    -fx-font-family: "Arial";
+    -fx-font-size: 80%;
+    -fx-font-weight: normal;
+    -fx-text-fill: #333333;
+    -fx-padding: 0px;
+}
+
+/* Style for the text that gives a short description of the error. */
+.modern-alert-label-message {
+    -fx-background-color: #f9f6f2;
+    -fx-border-color: none;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 100%;
+    -fx-font-weight: normal;
+    -fx-text-fill: #3c3c3c;
+    -fx-padding: 0px;
+}
