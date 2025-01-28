@@ -92,7 +92,41 @@ mvn dependency:build-classpath
 mvn dependency:build-classpath | ?{$_ -notmatch '^\[INFO\]'}
 ```
 
-### Interesting links
+## Build the JSON configuration file for the Java launcher
+
+You can use the provided Python script: [build-config.py](../build-config.py).
+
+Procedure:
+
+1. Execute the following Maven command: `mvn -X clean javafx:run -Dargs="encrypt /path/to/file"`
+2. Locate and copy the line starting with "[DEBUG] Executing command line: " from the command output.
+3. Assign this line as the value of the `MVN_SPEC` variable.
+4. Run this script.
+
+> Please adjust the output of the `build-config.py` script as follows:
+> 1. Specify a value for the "`JavaHomePath`" entry.
+> 2. Update all paths to be relative to the directory where the (JSON) configuration file ("`JavaHomePath`") is located.
+
+Example of JSON configuration file:
+
+```json
+{
+  "JavaHomePath": "jdk-23",
+  "ModulesPaths": [ "modules\\javafx-base-23-win.jar",
+    "modules\\javafx-base-23.jar",
+    "modules\\javafx-controls-23-win.jar",
+    "modules\\javafx-controls-23.jar",
+    "modules\\javafx-graphics-23-win.jar",
+    "modules\\javafx-graphics-23.jar" ],
+  "Modules": [ "javafx.base",
+    "javafx.controls",
+    "javafx.graphics" ],
+  "ClassPaths": [ "classes", "classes\\annotations-26.0.1.jar" ],
+  "MainClass": "org.shadow.skriva.Main"
+}
+```
+
+## Interesting links
 
 * Icons: https://iconduck.com/icons/21681/lightning-bolt
 * Colors: https://venngage.com/blog/pastel-color-palettes/
