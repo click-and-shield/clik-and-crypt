@@ -7,6 +7,7 @@ jpackage/resources/main.wxs
 jpackage/data/main.wxs.features.xml
 jpackage/data/main.wxs
 *.msi
+launcher
 
 ### Maven ###
 target/

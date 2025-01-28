@@ -103,9 +103,14 @@ Procedure:
 3. Assign this line as the value of the `MVN_SPEC` variable.
 4. Run this script.
 
-> Please adjust the output of the `build-config.py` script as follows:
-> 1. Specify a value for the "`JavaHomePath`" entry.
-> 2. Update all paths to be relative to the directory where the (JSON) configuration file ("`JavaHomePath`") is located.
+The script generates a "`launcher`" directory, which houses nearly all the necessary files for the Java application launcher:
+- The configuration file, "`config.json`".
+- The "`classes`" directory, containing all `.jar` and `.class` files, as well as resources (e.g., images, style sheets) that make up the application.
+- The "`modules`" directory, which includes all the Java modules required by the application.
+
+Then:
+1. Create a subdirectory within the "`launcher`" directory to store the JVM.  
+2. Update the "`config.json`" configuration file by specifying a value for the "`JavaHomePath`" entry.
 
 Example of JSON configuration file:
 
